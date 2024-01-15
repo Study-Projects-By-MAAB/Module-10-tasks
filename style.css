@@ -174,12 +174,6 @@ header {
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
 
-/* .product>img {
-    width: 300px;
-    height: 256px;
-    flex-shrink: 0;
-    margin: 0 auto;
-} */
 
 
 .rating {
@@ -249,7 +243,45 @@ header {
     align-items: center;
     position: absolute;
     right: 0;
-    
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/* featured section style  */
+.featured {
+    margin: 100px 0;
+    display: flex;
+    gap: 96px;
+    justify-content: center;
+}
+
+.featured-content {
+    margin: 23px 0;
+}
+
+.featured-title {
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.featured-text {
+    width: 501px;
+    height: 88px;
+    flex-shrink: 0;
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.featured-content .primary-btn {
+    border-radius: 0;
 }
 
 

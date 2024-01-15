@@ -161,6 +161,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin: 30px auto;
+    position: relative;
 }
 
 .product {
@@ -179,9 +180,6 @@ header {
     flex-shrink: 0;
     margin: 0 auto;
 } */
-
-
-
 
 
 .rating {
@@ -249,7 +247,9 @@ header {
     display: flex;
     gap: 8px;
     align-items: center;
-
+    position: absolute;
+    right: 0;
+    
 }
 
 

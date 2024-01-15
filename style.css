@@ -284,6 +284,53 @@ header {
     border-radius: 0;
 }
 
+/* footer section style  */
+
+footer {
+    background-color: #0A0826;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-content h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.footer-content p {
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.fp1 {
+    margin: 3px auto;
+
+}
+
+.fp2 {
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+.social-icon {
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+}
+
+
+
+
 
 /* responsive for mobile */
 @media screen and (max-width: 576px) {

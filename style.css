@@ -4,3 +4,120 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+.influencer-products {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.common-16 a {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.common-16 {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* upper styles are common style  */
+
+
+
+header {
+    /* border: 2px solid tan; */
+    margin: 90px 120px;
+}
+
+/* top section style  */
+
+.nav-section li img {
+    width: 36px;
+}
+
+.nav-section a {
+    text-decoration: none;
+}
+
+.nav-section li {
+    list-style: none;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
+    align-items: center;
+}
+
+.web-title {
+    width: 50%;
+}
+
+/* main title section style  */
+
+.main-title-section {
+    display: flex;
+    /* border: 2px solid; */
+    margin: 50px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-camera {
+    background-image: url('images/Circle\ design.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 414px;
+    flex-shrink: 0;
+    padding: 31px 20px;
+}
+
+.main-title h1 {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    width: 582px;
+    height: 133px;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.main-title p {
+    width: 505px;
+    height: 60.9px;
+    margin: 16px 0;
+}
+
+.primary-btn {
+    padding: 10px 24px;
+    border-radius: 41px;
+    background: #E02C6D;
+    border: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
